@@ -1,1 +1,1 @@
-# the-purple-echo
+# 💜 The Purple Echo – BTS Informational Website

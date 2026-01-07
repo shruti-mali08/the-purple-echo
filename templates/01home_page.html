@@ -1,0 +1,170 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Purple Echo</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>The Purple Echo</h1>
+        <hr>
+
+        <!-- NAVIGATION BAR -->
+        <nav class="horizontal_navigation_bar">
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">
+                        <h4>HOME</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url_for('members') }}">
+                        <h4>MEMBERS</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url_for('cultural_influence') }}">
+                        <h4>CULTURAL INFLUENCE</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url_for('discography') }}">
+                        <h4>DISCOGRAPHY</h4>
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a href="./05achievements_page.html">
+                        <h4>ACHIEVEMENTS</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./06philanthropical_history_page.html">
+                        <h4>PHILANTHROPICAL HISTORY</h4>
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+        <hr><br>
+    </header>
+
+
+    <!-- CONTENT START -->
+    <!-- Background History -->
+    <div id="background_history_section">
+        <div id="vertical_division_left">
+            <h3>
+                BACKGROUND HISTORY
+            </h3>
+            <p>
+                BTS, also known as Bangtan Sonyeondan (방탄소년단) or “Bulletproof Boy Scouts,” is a South Korean boy band
+                formed by Big Hit Entertainment in 2013. The group debuted on June 13, 2013, with seven members—RM, Jin,
+                Suga, J-Hope, Jimin, V, and Jungkook. Known for their socially conscious lyrics and authentic
+                storytelling, BTS addresses issues such as mental health, societal pressures, and self-empowerment,
+                allowing them to connect deeply with fans worldwide. Their music blends genres like pop, hip-hop, R&B,
+                and EDM, while their performances are recognized for intricate choreography and emotional depth.
+                Supported by their devoted fanbase, ARMY (Adorable Representative MC for Youth), BTS continues to
+                inspire millions globally through albums such as Wings, the Love Yourself series, and Map of the Soul,
+                spreading messages of growth, empathy, and self-love.
+            </p>
+        </div>
+
+        <div id="vertical_division_right">
+            <img src="./static/images/01home_page/home-page-bts.jpeg">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Members -->
+    <div>
+        <h3 style="text-align: center;">
+            <a href="./02members_page.html" style="color: white"> MEMBERS </a>
+        </h3>
+        <div id="members_section">
+            <ul>
+                <li>
+                    <div class="member_cards">
+                        <h4>RM aka Kim Namjoon (김남준)</h4>
+                        <img src="./static/images/01home_page/01rm-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>Jin aka. Kim Seokjin (김석진)</h4>
+                        <img src="./static/images//01home_page/02jin-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>SUGA aka. Min Yoongi(민윤기)</h4>
+                        <img src="./static/images/01home_page/03suga-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>J-Hope aka. Jung Hoseok (정호석)</h4>
+                        <img src="./static/images/01home_page/04jhope-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>Jimin aka. Park Jimin (박지민)</h4>
+                        <img src="./static/images/01home_page/05jimin-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>V aka. Kim Taehyung (김태형)</h4>
+                        <img src="./static/images/01home_page/06v-home_page.jpg">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="member_cards">
+                        <h4>Jungkook aka. Jeon Jungkook (전정국)</h4>
+                        <img src="./static/images/01home_page/07jungkook-home_page.jpg">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!-- TIMELINE -->
+    <div id="timeline_section">
+        <h3>
+            TIMELINE
+        </h3>
+    </div>
+
+    <hr>
+    <footer id="footer">
+        All pictures are downloaded from Weverse: Global Fandom Platform.
+    </footer>
+</body>
+
+</html>

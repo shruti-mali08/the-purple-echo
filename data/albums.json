@@ -1,0 +1,169 @@
+[
+    {
+        "id": 1,
+        "name": "2 Cool 4 Skool",
+        "year": 2013,
+        "type": "single album",
+        "cover": "static/images/04discography_page/bts/01-2_cool_4_skool.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "O!RUL82?",
+        "year": 2013,
+        "type": "mini album",
+        "cover": "static/images/04discography_page/bts/02-oh_are_you_late_too.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Skool Luv Affair",
+        "year": 2014,
+        "type": "mini album",
+        "cover": "static/images/04discography_page/bts/03-skool_luv_affair.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Dark & Wild",
+        "year": 2014,
+        "type": "full-length album",
+        "cover": "static/images/04discography_page/bts/04-dark_and_wild.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "The most beautiful moment in life pt.1",
+        "year": 2015,
+        "type": "mini album",
+        "cover": "static/images/04discography_page/bts/05-TMBMIL_pt1.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "The most beautiful moment in life pt.2",
+        "year": 2015,
+        "type": "mini album", 
+        "cover": "static/images/04discography_page/bts/06-TMBMIL_pt2.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "The most beautiful moment in life : Young Forever",
+        "year": 2016,
+        "type": "special album",
+        "cover": "static/images/04discography_page/bts/07-TMBMIL_young_forever.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Wings",
+        "year": 2016,
+        "type": "full-length album", 
+        "cover": "static/images/04discography_page/bts/08-wings.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "You never walk alone",
+        "year": 2017,
+        "type": "special album",
+        "cover": "static/images/04discography_page/bts/09-you_never_walk_alone.jpg"
+    },
+
+    {
+        "id": 10,
+        "name": "Love Yourself 承 'Her'",
+        "year": 2017,
+        "type": "mini album",
+        "cover": "static/images/04discography_page/bts/10-LY_her.jpg"
+    },
+
+    {
+        "id": 11,
+        "name": "Love Yourself 轉 'Tear'",
+        "year": 2018,
+        "type": "full-length album", 
+        "cover": "static/images/04discography_page/bts/11-LY_tear.jpg"
+    },
+
+    {
+        "id": 12,
+        "name": "Love Yourself 結 'Answer'",
+        "year": 2018,
+        "type": "repackaging album", 
+        "cover": "static/images/04discography_page/bts/12-LY_answer.jpg"
+    },
+
+    {
+        "id": 13,
+        "name": "Map of the Soul : Persona",
+        "year": 2019,
+        "type": "mini album", 
+        "cover": "static/images/04discography_page/bts/13-MOTS_persona.jpg"
+    },
+
+    {
+        "id": 14,
+        "name": "Map of the Soul : 7",
+        "year": 2020,
+        "type": "full-length album", 
+        "cover": "static/images/04discography_page/bts/14-MOTS_7.jpg"
+    },
+
+    {
+        "id": 15,
+        "name": "Dynamite",
+        "year": 2020,
+        "type": "digital single", 
+        "cover": "static/images/04discography_page/bts/15-dynamite.jpg"
+    },
+
+    {
+        "id": 16,
+        "name": "BE",
+        "year": 2020,
+        "type": "mini album", 
+        "cover": "static/images/04discography_page/bts/16-be.jpg"
+    },
+
+    {
+        "id": 17,
+        "name": "Butter",
+        "year": 2021,
+        "type": "digital single", 
+        "cover": "static/images/04discography_page/bts/17-butter-ds.jpg"
+    },
+
+    {
+        "id": 18,
+        "name": "Butter",
+        "year": 2021,
+        "type": "single album", 
+        "cover": "static/images/04discography_page/bts/18-butter.jpg"
+    },
+
+    {
+        "id": 19,
+        "name": "Proof",
+        "year": 2022,
+        "type": "anthology album", 
+        "cover": "static/images/04discography_page/bts/19-proof.jpg"
+    },
+
+    {
+        "id": 20,
+        "name": "Take Two",
+        "year": 2023,
+        "type": "digital single", 
+        "cover": "static/images/04discography_page/bts/20-take_two.jpg"
+    },
+
+    {
+        "id": 21,
+        "name": "Permission to Dance On Stage - Live",
+        "year": 2025,
+        "type": "live album", 
+        "cover": "static/images/04discography_page/bts/21-ptd_on_stage-live.jpg" 
+    }
+]

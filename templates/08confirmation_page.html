@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Purple Echo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>The Purple Echo</h1>
+        <hr>
+
+        <!-- NAVIGATION BAR -->
+        <nav class="horizontal_navigation_bar">
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">
+                        <h4>HOME</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url_for('members') }}">
+                        <h4>MEMBERS</h4>
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a href="./03musical_influence_page.html">
+                        <h4>MUSICAL INFLUENCE</h4>
+                    </a>
+                </li> -->
+
+                <li>
+                    <a href="{{ url_for('discography') }}">
+                        <h4>DISCOGRAPHY</h4>
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a href="./05achievements_page.html">
+                        <h4>ACHIEVEMENTS</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./06philanthropical_history_page.html">
+                        <h4>PHILANTHROPICAL HISTORY</h4>
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+        <hr><br>
+    </header>
+
+<h3>Your favorites are being saved ❤️</h3>
+<p>You will be redirected shortly...</p>
+
+<script>
+    setTimeout(() => {
+        window.location.href = "/discography";
+    }, 15000);      // 15s timeout
+</script>
+</body>
+</html>

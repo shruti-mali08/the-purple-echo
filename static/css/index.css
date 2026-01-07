@@ -1,0 +1,472 @@
+/* ------------------------------------------------- HOME PAGE ------------------------------------------------- */
+body {
+    background-image: linear-gradient(to bottom left, #a3c7eb, #c2badc, #d7b0d2, #f3abc2, #f9cbb6);
+    margin: 20px;
+    padding: none;
+}
+
+/* heading: THE PURPLE ECHO */
+h1 {
+    color: white;
+    /* DONT CHANGE START*/
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* DONT CHANGE END */
+
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #ababab;
+    text-align: center;
+    margin: 40px;
+}
+
+/* horizontal navigation bar: HOME, MEMBERS, DISCOGRAPHY, etc*/
+.horizontal_navigation_bar {
+    padding-left: 0%;
+    clear: both;
+    list-style-type: none;
+    text-align: center;
+    margin: 30px;
+}
+
+.horizontal_navigation_bar ul {
+    padding-left: 0%;
+}
+
+.horizontal_navigation_bar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.horizontal_navigation_bar a {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.horizontal_navigation_bar h4 {
+    margin: 10px 0px 0px 5px;
+    float: left;
+    margin: 0px;
+
+    /* DONT CHANGE - START*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    text-decoration: underline;
+
+}
+
+/* titles of subsections home page: BACKGROUND HISTORY, MEMBERS, TIMELINE */
+h3 {
+    /* DONT CHANGE - START*/
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    /* DONT CHANGE - END */
+
+    font-size: 2em;
+    color: white;
+}
+
+p {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    /* DONT CHANGE - END */
+
+}
+
+/* BACKGROUND HISTORY SECTION */
+
+#background_history_section {
+    display: flex;
+    flex-wrap: wrap;
+    /* allows columns to stack on small screens */
+    margin: 10px;
+}
+
+#vertical_division_left,
+#vertical_division_right {
+    flex: 1 1 300px;
+    /* grow/shrink, base width 300px */
+    padding: 10px;
+}
+
+#vertical_division_right img {
+    width: 100%;
+    /* fills its column */
+    height: auto;
+    max-width: 650px;
+    /* optional: caps the max size */
+}
+
+/* MEMBERS SECTION */
+
+#members_section {
+    display: inline-block;
+    text-align: center;
+}
+
+#members_section ul {
+    padding-left: 0%;
+}
+
+#members_section li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.member_cards {
+    margin: 10px;
+    padding: 10px;
+    border: #a3c7eb;
+    border-style: solid;
+
+    h4 {
+        margin-top: 0%;
+        margin-bottom: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+.member_cards img {
+    /* width: 20%; */
+    width: 300px;
+}
+
+/* TIMELINE SECTION */
+
+#timeline_section {
+    margin: 10px;
+
+    h3 {
+        padding: 10px;
+    }
+}
+
+#footer {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+}
+
+/* ------------------------------------------------- MEMBERS PAGE ------------------------------------------------- */
+/* LIST OF MEMBERS - RESPONSIVE */
+#members_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    /* small padding for page edges */
+}
+
+#members_list li {
+    margin-bottom: 40px;
+}
+
+/* container for each member's info */
+.member-info {
+    display: flex;
+    flex-wrap: wrap;
+    /* allows stacking on small screens */
+    gap: 20px;
+    /* space between image and bio */
+    align-items: flex-start;
+}
+
+/* picture section */
+.member-picture img {
+    width: 100%;
+    max-width: 300px;
+    /* caps image size */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    /* optional: nice rounded corners */
+}
+
+/* bio section */
+.member-bio {
+    flex: 1;
+    /* takes remaining space */
+    min-width: 250px;
+    /* prevents bio from getting too narrow */
+}
+
+.member-bio p {
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.member-bio ol {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    padding-left: 20px;
+}
+
+.member-bio li {
+    list-style-type: decimal;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------- DISCOGRAPHY PAGE ------------------------------------------------- */
+
+/* ----------------------------- favorite feature ----------------------------- */
+/* HEADER */
+#favorites_cart_header {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    text-align: center;
+    margin-top: 15px;
+}
+
+#favorites_cart_header button {
+    float: right;
+}
+
+/* Favorites page redirecting link  */
+#fav-page {
+    /* DONT CHANGE - START*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    text-decoration: underline;
+    color: white;
+    float: right;
+}
+
+/* CART DISPLAY */
+.cart_container {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* DONT CHANGE - END */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    gap: 40px;
+}
+
+.cart_container li {
+    flex: 1 1 300px;
+    /* flex-grow:1, flex-shrink:1, base width:300px */
+    max-width: 125px;
+    /* ensures images don’t get too wide */
+    list-style: none;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    /* stack children vertically */
+    align-items: center;
+    /* center children horizontally */
+    text-align: center;
+    /* for text inside li */
+    margin: 10px;
+}
+
+.cart_container li h4 {
+    font-size: large;
+    text-align: center;
+    margin: 15px;
+}
+
+.cart_container li img {
+    width: 100%;
+    /* fills the li */
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Displaying all albums */
+#albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    gap: 40px;
+}
+
+#albums li {
+    flex: 1 1 300px;
+    /* flex-grow:1, flex-shrink:1, base width:300px */
+    max-width: 325px;
+    /* ensures images don’t get too wide */
+    list-style: none;
+}
+
+#albums li h4 {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    font-size: large;
+    text-align: center;
+    margin: 15px;
+}
+
+#albums img {
+    width: 100%;
+    /* fills the li */
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none;
+    /* so it doesn't block hover */
+}
+
+
+/* ----------------------------- search feature ----------------------------- */
+/*.album-cover {
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+}*/
+
+.display_found_album {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    font-size: medium;
+    text-align: center;
+    margin: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+
+
+
+/* ------------------------------------------------- FAVORITES PAGE ------------------------------------------------- */
+
+/* ul that displays the favorite albums */
+.albums_fav {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    gap: 40px;
+}
+
+.albums_fav li {
+    flex: 1 1 300px;
+    /* flex-grow:1, flex-shrink:1, base width:300px */
+    max-width: 250px;
+    /* ensures images don’t get too wide */
+    list-style: none;
+
+    border-color: white;
+    border-style: groove;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.albums_fav li h4 {
+    /* DONT CHANGE - START*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* DONT CHANGE - END */
+    font-size: large;
+    text-align: center;
+    margin: 15px;
+}
+
+.albums_fav img {
+    width: 100%;
+    /* fills the li */
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+/* ------------------------------------------------- CULTURAL INFLUENCE PAGE ------------------------------------------------- */
+
+.subsections {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+    img {
+        max-width: 40%;
+        padding: 10px;
+        height: auto; 
+        border-radius: 20px;
+    }
+}
+
+.ci-left {
+    text-align: left;
+    padding: 10px;
+
+    h3 {
+        font-size: 1.75em;
+    }
+}
+
+.ci-right {
+    padding: 10px;
+
+    h3 {
+        font-size: 1.75em;
+    }
+}
