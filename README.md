@@ -1,8 +1,8 @@
 # The Purple Echo 🎵
 ### BTS Informational & Full-Stack Web Application
-**Role: Full-Stack Developer**
+**Full-Stack Developer**
 
-The Purple Echo is a full-stack web application developed as the capstone project for the course Programming Languages for Web Applications. The site presents curated, research-based content on BTS’s discography, member profiles, and cultural impact, blending a technical backend with a polished, user-centric frontend.
+The Purple Echo is a full-stack web application developed as the capstone project for the course Programming Languages for Web Applications. The site presents curated, research-based content on BTS’s discography, member profiles, and cultural impact, blending a technical backend with a polished, user-centric front-end.
 
 This project demonstrates the ability to organize complex information into a navigable digital experience, balancing academic research with modern web development practices.
 
@@ -28,7 +28,7 @@ Homepage Screenshot:
     - SQLAlchemy ORM for persistent user data (e.g., Favorites system).
     - JSON for structured, lightweight content storage (e.g., Discography metadata).
 
-- **Frontend**: HTML5, CSS3 (Responsive), and Vanilla JavaScript.
+- **Front-end**: HTML5, CSS3 (Responsive), and Vanilla JavaScript.
 
 - **Templating**: Jinja2 for dynamic HTML rendering.
 
@@ -84,7 +84,7 @@ python app.py
 
 - **UX/UI Design**: Structuring large volumes of informational content for clear discovery and high usability.
 
-- **Full-Stack Architecture**: Connecting a Python backend to an interactive JS frontend through RESTful patterns.
+- **Full-Stack Architecture**: Connecting a Python backend to an interactive JS front-end through RESTful patterns.
 
 ## ⚠️ Disclaimer
 This is a fan-made, non-commercial project created for educational purposes. **All names, images, and references related to BTS are the property of HYBE / BigHit Music**. No copyright infringement is intended.
