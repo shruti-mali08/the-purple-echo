@@ -1,5 +1,7 @@
 # The Purple Echo 🎵
 ### BTS Informational & Full-Stack Web Application
+**Role: Full-Stack Developer**
+
 The Purple Echo is a full-stack web application developed as the capstone project for the course Programming Languages for Web Applications. The site presents curated, research-based content on BTS’s discography, member profiles, and cultural impact, blending a technical backend with a polished, user-centric frontend.
 
 This project demonstrates the ability to organize complex information into a navigable digital experience, balancing academic research with modern web development practices.
